@@ -1,0 +1,19 @@
+Analysis of reverse():
+    1    auto i = begin();           //one atomic
+    2    while( i != end()) {
+    3        push_front(*i);         //runs n times
+    4        i = erase(i);           //runs n times
+    5    }
+    total = n + n + 1 = 2n + 1
+    in terms of Big O : O(n)
+
+Analysis of remove_if():
+    1   auto i = begin();           //one atomic
+    2   while(i != end()){
+    3       if(pred(*i))            //if this condition is met then one atomic will execute
+    4          i = erase(i);
+    5       else                    //else this atomic will execute. Resulting in n number of atomics
+    6          i++;
+    7   }
+    total = n + 1
+    in terms of Big O : O(n)

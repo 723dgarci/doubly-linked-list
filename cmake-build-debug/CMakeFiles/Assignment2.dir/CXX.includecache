@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/WorkD/CLionProjects/untitled/DSA/Assignment2/List.h
+iostream
+-
+initializer_list
+-
+List.hpp
+C:/Users/WorkD/CLionProjects/untitled/DSA/Assignment2/List.hpp
+
+C:/Users/WorkD/CLionProjects/untitled/DSA/Assignment2/List.hpp
+List.h
+C:/Users/WorkD/CLionProjects/untitled/DSA/Assignment2/List.h
+
+C:/Users/WorkD/CLionProjects/untitled/DSA/Assignment2/mystk.h
+List.h
+C:/Users/WorkD/CLionProjects/untitled/DSA/Assignment2/List.h
+
+C:/Users/WorkD/CLionProjects/untitled/DSA/Assignment2/test_list.cpp
+iostream
+-
+string
+-
+vector
+-
+List.h
+C:/Users/WorkD/CLionProjects/untitled/DSA/Assignment2/List.h
+mystk.h
+C:/Users/WorkD/CLionProjects/untitled/DSA/Assignment2/mystk.h
+
